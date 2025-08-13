@@ -1,0 +1,68 @@
+body {
+  background-color: #121212; /* тёмный фон */
+  color: #FFFFFF; /* белый текст */
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #181818; /* чуть светлее фон для контейнера */
+  border-radius: 8px;
+  padding: 40px 50px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.7);
+  width: 320px;
+  text-align: center;
+}
+
+h1 {
+  color: #1DB954; /* фирменный зелёный Spotify */
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-size: 2rem;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #282828;
+  color: #FFFFFF;
+  font-size: 1rem;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+  color: #B3B3B3;
+}
+
+input[type="text"]:focus {
+  background-color: #1DB954;
+  color: #000000;
+}
+
+input[type="button"] {
+  margin-top: 24px;
+  width: 30%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #1DB954;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #1ed760;
+}
